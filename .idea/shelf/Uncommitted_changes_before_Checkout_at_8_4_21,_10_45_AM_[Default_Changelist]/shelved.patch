@@ -1,0 +1,17 @@
+Index: app/src/main/java/com/codinginflow/imagesearchapp/MainActivity.kt
+===================================================================
+diff --git a/app/src/main/java/com/codinginflow/imagesearchapp/MainActivity.kt b/app/src/main/java/uz/boywonder/unsplashapp/MainActivity.kt
+rename from app/src/main/java/com/codinginflow/imagesearchapp/MainActivity.kt
+rename to app/src/main/java/uz/boywonder/unsplashapp/MainActivity.kt
+--- a/app/src/main/java/com/codinginflow/imagesearchapp/MainActivity.kt	
++++ b/app/src/main/java/uz/boywonder/unsplashapp/MainActivity.kt	
+@@ -1,7 +1,8 @@
+-package com.codinginflow.imagesearchapp
++package uz.boywonder.unsplashapp
+ 
+ import androidx.appcompat.app.AppCompatActivity
+ import android.os.Bundle
++import com.codinginflow.imagesearchapp.R
+ 
+ class MainActivity : AppCompatActivity() {
+     override fun onCreate(savedInstanceState: Bundle?) {
